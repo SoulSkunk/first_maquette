@@ -1,0 +1,248 @@
+body{
+	background-image: url(mike.jpg);
+	background-repeat: no-repeat;
+	background-size: 111%;
+	margin: 0%;
+	font-family: 'Inter', sans-serif;
+}
+
+#nav{
+	display: flex;
+}
+#nav_left{
+	flex-grow: 1;
+	display: flex;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+#nav_right{
+	flex-grow: 1;
+	display: flex;
+	margin-right: 23%;
+	margin-top: 2%;
+}
+#img_top{
+	margin-left: 15%;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	padding-right: 48%;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5vw;
+	margin: 0%;
+}
+
+.music_note{
+	height: auto;
+	width: 20%;
+	
+}
+h1{
+	color: white;
+	font-size: 5vw;
+	text-align: center;
+}
+
+
+
+
+
+#albums{
+	margin-top: 22%;
+	background-color: black;
+	height: auto;
+	width: 100%;
+}
+#deezer{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color: red;
+	font-size: 3vw;
+	font-family: 'Julee',cursive;
+}
+.img_deezer{
+	height: auto;
+	width: 5%;
+	margin: 5%;
+}
+.apple_music{
+	height: auto;
+	width: 35%;
+}
+.google_music{
+	height: auto;
+	width: 85%;
+}
+
+div.queen{
+	display: flex;
+	gap: 10%;
+	justify-content: center;
+}
+div.queen1{
+	position: relative;
+}
+.img_queen{
+	height: auto;
+	width: 100%;
+}
+div.box_apple{
+	position: absolute;
+	top: 71%;
+	left: 3%;
+}
+div.box_google{
+	position: absolute;
+	top: 72%;
+	left: 61%;
+}
+p.queenthework{
+	text-align: center;
+	color: white;
+	font-size: 1vw;
+}
+
+
+
+
+
+#musicien{
+	background-image: url(musicien.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+}
+.citation{
+	color: white;
+	text-align: center;
+	font-size: 2vw;
+	font-style: italic;
+}
+
+
+
+
+
+.txt{
+	color: white;
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+
+
+
+#sold{
+	display: flex;
+	gap: 8%;
+	justify-content: center;
+	margin-top: 10%;
+}
+.box_guitare{
+	height: auto;
+	width: 15%;
+}
+.img_guitare{
+	height: auto;
+	width: 100%;
+}
+div.price{
+	display: flex;
+}
+h3{
+	color: white;
+	font-size: 1vw;
+}
+h4{
+	color: white;
+	font-size: 1vw;
+	margin-left: 55%;
+}
+button.buy{
+	background-color: firebrick;
+	padding: 5% 30% 5% 30%;
+	font-size: 1vw;
+	color: white;
+	
+}
+
+
+
+
+
+
+
+
+#form{
+	margin-top: 10%;
+	text-align: center;
+}
+.form_modif{
+	background-color: rgb(219, 137, 137);
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5vw;
+	color: white;
+}
+button.send{
+	background-color: firebrick;
+	font-size: 1vw;
+	color: white;
+}
+
+
+
+
+
+
+.bot_box{
+	display: flex;
+	background-color: rgb(43, 40, 40);
+	margin-top: 0%;
+}
+.left_box{
+	flex-grow: 1;
+	margin-left: 5%;
+}
+.mid_box{
+	flex-grow: 1;
+	margin-left: 5%;
+}
+.right_box{
+	flex-grow: 1;
+}
+h5{
+	color: white;
+	font-size: 1.5vw;
+}
+h6{
+	color: white;
+	font-size: 1.1vw
+}
+p{
+	color: white;
+	font-size: 0.8vw;
+}
+.bot_img{
+	height: auto;
+	width: 10%;
+	margin-bottom: 3%;
+}
+.post{
+	display: flex;
+}
+.icons{
+	margin-right: 10%;
+	height: auto;
+	width: 15%;
+}
+.bottom_txt{
+	margin-left: 5%;
+}
